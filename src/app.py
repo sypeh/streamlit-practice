@@ -42,6 +42,8 @@ def main():
     degree = st.sidebar.slider("Degree", min_value=0, max_value=180, step=1)
     st.image(image.rotate(degree, expand=expand))
 
+    st.title('My first app')
+
 
 if __name__ == "__main__":
     main()
